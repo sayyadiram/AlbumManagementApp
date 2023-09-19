@@ -1,0 +1,104 @@
+/* AlbumManagementApp.css */
+
+.AppHeader {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .AppContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .ActionsSection {
+    flex: inherit;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    width: 20%;
+    height: max-content;
+  }
+  
+  .ActionsSection h2 {
+    font-size: 20px;
+  }
+  
+  .ActionItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .ActionItem label {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .GreenButton {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .RedButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .AlbumListAside {
+    flex: 1;
+    padding: 10px;
+    width: 80%;
+  }
+  
+  .AlbumListAside h2 {
+    font-size: 20px;
+  }
+  
+  .AlbumTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .AlbumTable th,
+  .AlbumTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .AlbumTable th {
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .AlbumTable button {
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .AppContainer {
+      flex-direction: column;
+    }
+  
+    .ActionsSection,.AlbumListAside {
+      width: 100%;
+      padding: 10px;
+    }
+    
+  }
+  
